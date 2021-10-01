@@ -5,6 +5,7 @@ Form for sign up for the git committed workshop
 <ol>
   <li>Clone the repository using <code>git clone https://github.com/Android-Club-VITC/git-commited-form.git</code></li>
   <li>Create a new branch following the nomenclature <code>username/label/issue-name</code></li>
+  <li>Create .env file in your root folder and write <code>GOOGLE_API_KEY = api-key-here</code></li>
   <li>Work on your branch only on the file relating to your issue</li>
   <li>Push changes to your branch using</li>
 </ol>
