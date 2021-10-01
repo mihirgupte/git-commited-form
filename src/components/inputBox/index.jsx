@@ -1,7 +1,11 @@
 import "./index.css";
 
-export default function button(){
+export default function InputBox(){
     return(
-        null
+        <div className="container">
+            <div className="box">
+                Hello
+            </div>
+        </div>
     )
 }
