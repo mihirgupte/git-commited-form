@@ -1,10 +1,14 @@
 import './App.css';
 import InputBox from './components/inputBox';
+import Button from './components/button';
 
 function App() {
   return (
 
-      <InputBox></InputBox>
+      <InputBox>
+      <Button >Previous</Button>
+      <Button>Next</Button>
+      </InputBox>
     
   );
 }

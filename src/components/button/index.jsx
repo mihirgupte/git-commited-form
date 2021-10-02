@@ -1,7 +1,11 @@
 import "./index.css";
 
-export default function button(){
+export default function Button({children}){
     return(
-        null
+        <div className = "button-container">
+        <div className = "button">
+            {children}
+        </div>
+        </div>
     )
 }
