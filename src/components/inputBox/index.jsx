@@ -1,5 +1,4 @@
 import "./index.css";
-import InputField from '../textInput/';
 
 export default function InputBox({children}){
     return(
